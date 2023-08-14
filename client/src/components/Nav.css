@@ -1,0 +1,19 @@
+nav {
+    background-color: #cccccc;
+    color: black;
+    /* border-bottom: 2px solid #17a2b8;s */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-btn {
+    width: 80px;
+    background-color: #4d4dff;
+    margin-left: 20px;
+}
+.nav-btn.logout{
+    background-color: #e74c3c;
+}

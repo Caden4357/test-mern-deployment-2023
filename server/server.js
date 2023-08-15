@@ -6,7 +6,7 @@ const port = 8000;
 const cookieParser = require('cookie-parser')
 require('dotenv').config()
 app.use(cors({credentials:true, origin: 'http://localhost:3000'}))
-const server = app.listen(port, () => {
+const server = app.listen(port, '0.0.0.0', () => {
     console.log(`Listening on port: ${port}`)
 });
 require("./config/mongooseConfig");

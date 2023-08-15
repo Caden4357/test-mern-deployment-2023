@@ -14,7 +14,7 @@ function App() {
   // we don't need to destructure the 'setSocket' function since we won't be updating the socket state
   // const navigate = useNavigate()
   const location = useLocation().pathname;
-  const [socket] = useState(() => io(':8000'));
+  const [socket] = useState(() => io('http://34.220.100.222/:8000'));
   const [isConnected, setIsConnected] = useState(socket.connected);
 
   // const [username, setUsername] = useState('')
